@@ -1,0 +1,81 @@
+<svg viewBox="0 0 600 520" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Illustration of a globe with books orbiting it, connected by a bridge">
+  <defs>
+    <radialGradient id="globeGrad" cx="35%" cy="30%" r="75%">
+      <stop offset="0%" stop-color="#3f6fc4" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#0d1b3a" stop-opacity="0.05"/>
+    </radialGradient>
+    <linearGradient id="bridgeGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.15"/>
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.15"/>
+    </linearGradient>
+  </defs>
+
+  <!-- orbit rings -->
+  <ellipse cx="300" cy="230" rx="230" ry="230" fill="none" stroke="#ffffff" stroke-opacity="0.10" stroke-width="1.5"/>
+  <ellipse cx="300" cy="230" rx="180" ry="70" fill="none" stroke="#6c93d6" stroke-opacity="0.35" stroke-width="1.5" transform="rotate(-8 300 230)"/>
+
+  <!-- globe -->
+  <circle cx="300" cy="230" r="140" fill="url(#globeGrad)" stroke="#ffffff" stroke-opacity="0.55" stroke-width="2"/>
+  <ellipse cx="300" cy="230" rx="140" ry="46" fill="none" stroke="#ffffff" stroke-opacity="0.28" stroke-width="1.4"/>
+  <ellipse cx="300" cy="230" rx="140" ry="90" fill="none" stroke="#ffffff" stroke-opacity="0.22" stroke-width="1.4"/>
+  <ellipse cx="300" cy="230" rx="46" ry="140" fill="none" stroke="#ffffff" stroke-opacity="0.28" stroke-width="1.4"/>
+  <ellipse cx="300" cy="230" rx="90" ry="140" fill="none" stroke="#ffffff" stroke-opacity="0.22" stroke-width="1.4"/>
+  <line x1="160" y1="230" x2="440" y2="230" stroke="#ffffff" stroke-opacity="0.32" stroke-width="1.6"/>
+
+  <!-- simplified continents (soft shapes) -->
+  <path d="M250 150 q30 -18 55 2 q18 14 5 34 q-14 18 -40 12 q-28 -6 -30 -28 q-2 -12 10 -20 Z" fill="#ffffff" fill-opacity="0.5"/>
+  <path d="M320 250 q34 -10 46 16 q10 24 -12 40 q-20 15 -42 2 q-20 -12 -14 -34 q4 -16 22 -24 Z" fill="#ffffff" fill-opacity="0.4"/>
+  <path d="M220 270 q22 -8 32 10 q8 15 -8 26 q-16 10 -30 -2 q-12 -11 -4 -24 q3 -6 10 -10 Z" fill="#ffffff" fill-opacity="0.35"/>
+
+  <!-- bridge -->
+  <path d="M60 420 Q300 320 540 420" fill="none" stroke="url(#bridgeGrad)" stroke-width="6" stroke-linecap="round"/>
+  <path d="M60 420 Q300 320 540 420" fill="none" stroke="#ffffff" stroke-opacity="0.18" stroke-width="14" stroke-linecap="round"/>
+  <!-- bridge suspension lines -->
+  <g stroke="#ffffff" stroke-opacity="0.55" stroke-width="2.2">
+    <line x1="130" y1="401" x2="130" y2="440"/>
+    <line x1="190" y1="378" x2="190" y2="440"/>
+    <line x1="250" y1="360" x2="250" y2="440"/>
+    <line x1="300" y1="352" x2="300" y2="440"/>
+    <line x1="350" y1="360" x2="350" y2="440"/>
+    <line x1="410" y1="378" x2="410" y2="440"/>
+    <line x1="470" y1="401" x2="470" y2="440"/>
+  </g>
+  <line x1="40" y1="440" x2="560" y2="440" stroke="#ffffff" stroke-opacity="0.85" stroke-width="5" stroke-linecap="round"/>
+  <!-- bridge towers -->
+  <line x1="130" y1="330" x2="130" y2="440" stroke="#ffffff" stroke-opacity="0.85" stroke-width="6" stroke-linecap="round"/>
+  <line x1="470" y1="330" x2="470" y2="440" stroke="#ffffff" stroke-opacity="0.85" stroke-width="6" stroke-linecap="round"/>
+
+  <!-- floating books -->
+  <g transform="translate(96 108) rotate(-14)">
+    <rect x="0" y="0" width="46" height="34" rx="3" fill="#ffffff"/>
+    <rect x="0" y="0" width="46" height="8" rx="3" fill="#3f6fc4"/>
+    <line x1="6" y1="16" x2="40" y2="16" stroke="#0d1b3a" stroke-opacity="0.25" stroke-width="1.5"/>
+    <line x1="6" y1="24" x2="34" y2="24" stroke="#0d1b3a" stroke-opacity="0.25" stroke-width="1.5"/>
+  </g>
+  <g transform="translate(430 92) rotate(12)">
+    <rect x="0" y="0" width="52" height="38" rx="3" fill="#ffffff"/>
+    <rect x="0" y="0" width="52" height="9" rx="3" fill="#6c93d6"/>
+    <line x1="7" y1="19" x2="45" y2="19" stroke="#0d1b3a" stroke-opacity="0.25" stroke-width="1.5"/>
+    <line x1="7" y1="28" x2="38" y2="28" stroke="#0d1b3a" stroke-opacity="0.25" stroke-width="1.5"/>
+  </g>
+  <g transform="translate(492 220) rotate(-8)">
+    <rect x="0" y="0" width="40" height="30" rx="3" fill="#ffffff" fill-opacity="0.92"/>
+    <rect x="0" y="0" width="40" height="7" rx="3" fill="#3f6fc4"/>
+  </g>
+  <g transform="translate(64 250) rotate(10)">
+    <rect x="0" y="0" width="42" height="32" rx="3" fill="#ffffff" fill-opacity="0.92"/>
+    <rect x="0" y="0" width="42" height="7" rx="3" fill="#6c93d6"/>
+  </g>
+  <g transform="translate(250 40) rotate(-4)">
+    <rect x="0" y="0" width="44" height="32" rx="3" fill="#ffffff"/>
+    <rect x="0" y="0" width="44" height="8" rx="3" fill="#ffffff" fill-opacity="0.9"/>
+    <line x1="6" y1="18" x2="38" y2="18" stroke="#0d1b3a" stroke-opacity="0.25" stroke-width="1.5"/>
+  </g>
+
+  <!-- open book resting on bridge center -->
+  <g transform="translate(268 388)">
+    <path d="M0 10 Q16 -6 32 10 L32 26 Q16 12 0 26 Z" fill="#ffffff"/>
+    <path d="M32 10 Q48 -6 64 10 L64 26 Q48 12 32 26 Z" fill="#ffffff"/>
+  </g>
+</svg>
